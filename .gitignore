@@ -1,0 +1,66 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Testing
+/coverage
+*.lcov
+
+# Next.js build output
+apps/web/.next/
+apps/web/out/
+apps/web/build/
+
+# Nest.js build output
+apps/server/dist/
+
+# Production outputs
+dist/
+build/
+
+# Environment files (Never commit secrets!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+apps/*/.env
+apps/*/.env.local
+apps/*/.env*.local
+
+# Allow example env files to be tracked
+!.env.example
+!apps/*/.env.example
+
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diagnostic / IDE
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# TypeScript / Cache
+*.tsbuildinfo
+.turbo
+.eslintcache
